@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>
+            GeeksforGeeks Survey Form
+        </h1>
+        
+           <!-- <div class="main-heading">
+                <p>GeeksForGeeks Survey Form!</p>
+            </div>
+            -->
+        
+        <form id="form">
+
+          <div class="content">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name"/>
+            
+          </div> 
+             
+          <div class="content">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter Your Email"/>
+             
+          </div>  
+
+
+          <div class="content">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter Your Age"/>
+            
+          </div>  
+
+
+          <div class="content">
+            <label for="option">Which option best describe you?</label>
+            <select name="option" id="option">
+                <option value="student">Student</option>
+                <option value="student">Employee</option>
+                <option value="student">Manager</option>
+            </select>
+            
+          </div>
+
+
+            <div class="content">
+            <label for="yes_no_maybe">Would you recommend GeeksForGeeks to a friend?</label>
+            <p>
+                <input type="radio" name="yes_no" checked>Yes</input>
+            </p>
+            <p>
+                <input type="radio" name="yes_no" checked>No</input>
+            </p>
+            
+            </div>
+
+            <div class="content">
+            <label for="skills">Languages and Frameworks known Known(Check all that apply)</label>
+            
+            <input type="checkbox" id="skill1" name="skill1" value="C++">
+            <label for="skill1">C++</label><br>
+            <input type="checkbox" id="skill2" name="skill2" value="C#">
+            <label for="skill1">C#</label><br>
+            <input type="checkbox" id="skill3" name="skill3" value="C">
+            <label for="skill1">C</label><br>
+            <input type="checkbox" id="skill4" name="skill4" value="Java">
+            <label for="skill1">Java</label><br>
+            <input type="checkbox" id="skill5" name="skill5" value="Python">
+            <label for="skill1">Python</label><br>
+            
+            </div>
+            <div class="content">
+                <label for="comments">Any comments or suggesions!</label></p>
+                <textarea id="comments" name="message" rows="4" cols="50" placeholder="write here..."></textarea>
+            
+            </div>
+            
+            <button class="button">Submit</button>
+            
+
+            
+          
+        </form>
+ 
+    
+    </body>
+</html>
